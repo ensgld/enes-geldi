@@ -1,0 +1,29 @@
+{
+  "name": "enes-geldi",
+  "version": "1.0.0",
+  "description": "bu bir deneme package'ıdır.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "enes": "echo 'Benim adım Enes'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme"
+  ],
+  "author": "Enes Geldi",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.5.3",
+    "nodemailer": "^6.9.14",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/ensgld/enes-geldi.git"
+
+  }
+}
